@@ -1,5 +1,5 @@
 import React from 'react'
-import Brado from '../assets/man.jpg'
+import Brado from '../assets/Brandon.jpg'
 import {MdKeyboardArrowRight} from 'react-icons/md'
 import {Link } from 'react-scroll'
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div name='home' className='w-full  md:h-screen text-white bg-gradient-to-b from-black via-black to-gray-800 pt-20 md:pt-20'>
         <div className='md:max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-3xl sm:text-7xl font-bold text-white'>
+                <h2 className='text-3xl sm:6-xl md:text-7xl font-bold text-white'>
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='pb-10 md:pb-0'>
-                <img src={Brado} alt="Brado profile" className='rounded-2xl mx-auto w-80 object-cover h-[400px] top-0' />
+                <img src={Brado} alt="Brado profile" className='rounded-2xl mx-auto w-80 object-cover h-[320px] top-0' />
             </div>
         </div>
     </div>
