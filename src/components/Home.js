@@ -15,13 +15,13 @@ const Home = () => {
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio debitis, voluptates explicabo deserunt nobis quaerat consectetur aliquam sed suscipit minima totam est eaque consequuntur accusantium quas rerum aperiam illo pariatur!
                 </p>
                 <div className='pb-20'>
-                    <Link to='experience' smooth duration={500} className='group text-white flex w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r from-cyan-500 cursor-pointer to-blue-500'>
+                    <Link to='portfolio' smooth duration={500} className='group text-white flex w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r from-cyan-500 cursor-pointer to-blue-500'>
                         Portfolio <span className='group-hover:rotate-90 duration-300'><MdKeyboardArrowRight size={25} className='ml-1'/></span> 
                     </Link>
                 </div>
             </div>
             <div className='pb-10 md:pb-0'>
-                <img src={Brado} alt="Brado profile" className='rounded-2xl mx-auto w-80 object-cover h-[320px] top-0' />
+                <img src={Brado} alt="Brado profile" className='rounded-2xl mx-auto w-80 object-cover h-[24rem] md:h-[320px] top-0' />
             </div>
         </div>
     </div>
