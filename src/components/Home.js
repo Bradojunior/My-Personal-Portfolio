@@ -12,7 +12,8 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio debitis, voluptates explicabo deserunt nobis quaerat consectetur aliquam sed suscipit minima totam est eaque consequuntur accusantium quas rerum aperiam illo pariatur!
+                    Hi my name is Brandon i'm a software developer. Our top priority is to produce high quality websites  which are responsive on all mobile devices such as mobile phones, tablets and desktops with the use of programming languages such as HTML and CSS, Javascript, React for the Frontend and Node JS for the backend.
+                    {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio debitis, voluptates explicabo deserunt nobis quaerat consectetur aliquam sed suscipit minima totam est eaque consequuntur accusantium quas rerum aperiam illo pariatur! */}
                 </p>
                 <div className='pb-20'>
                     <Link to='portfolio' smooth duration={500} className='group text-white flex w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r from-cyan-500 cursor-pointer to-blue-500'>
